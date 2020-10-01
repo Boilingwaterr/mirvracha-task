@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list_container {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  z-index: -5;
+}

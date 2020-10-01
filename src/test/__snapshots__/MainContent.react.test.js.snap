@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders countries 1`] = `
+Array [
+  <p>
+    France
+  </p>,
+  <p>
+    Russian Federation
+  </p>,
+  <p>
+    The United States of America
+  </p>,
+]
+`;

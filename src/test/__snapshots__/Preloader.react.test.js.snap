@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders countries 1`] = `
+<div
+  className="app"
+>
+  <form
+    className="search_form"
+  >
+    <input
+      className="search_field"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <div
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="drop_down"
+      >
+        list size
+      </div>
+      <div />
+    </div>
+  </form>
+  <div
+    className="preloader"
+  >
+    <div
+      className="preloaderContent"
+    >
+      <div
+        className="preloaderFirst"
+      />
+      <div
+        className="preloaderSecond"
+      />
+      <div
+        className="preloaderThird"
+      />
+    </div>
+  </div>
+</div>
+`;
