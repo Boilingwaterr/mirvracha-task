@@ -18,10 +18,12 @@ const SearchFieldComponent: React.FC<Props> = ({
   inputValue,
 }) => {
   function handleChange(e: React.ChangeEvent<HTMLInputElement>): void {
-    setInputValue(e.target.value);
-    getCountriesByName(e.target.value);
+    let value = e.target.value.replace(/[^\x00-\x7F]+/gi, "");
+    value = value.replace(/[\\,\/.]/, "");
+    setInputValue(value);
+    getCountriesByName(value);
   }
-  console.log(inputValue);
+
   return (
     <form className={search_form}>
       <input
@@ -29,6 +31,7 @@ const SearchFieldComponent: React.FC<Props> = ({
         value={inputValue}
         onChange={handleChange}
         className={search_field}
+        placeholder="Enter country name here"
       />
 
       <SizeList setSize={setSize} />

@@ -6,7 +6,7 @@
     "preserveConstEnums": true,
     "removeComments": true,
     "declaration": true,
-    "outDir": "./dist/",
+    "outDir": "./build/",
     "sourceMap": true,
     "noImplicitAny": false,
     "module": "commonjs",
